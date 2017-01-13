@@ -4,7 +4,6 @@ CACHE:
 # Offline cache v3
 # html files
 index.html
-article.html
 
 # css files
 assets/app.css
