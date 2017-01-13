@@ -1,7 +1,8 @@
 CACHE MANIFEST
 
-CACHE:
 # Offline cache v10
+
+CACHE:
 # html files
 index.html
 
