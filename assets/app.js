@@ -6,33 +6,33 @@
 		switch(webappCache.status)
 		{
 			case 0:
-				console.log("Cache status: Uncached");
+				alert("Cache status: Uncached");
 				break;
 			case 1:
-				console.log("Cache status: Idle");
+				alert("Cache status: Idle");
 				break;
 			case 2:
-				console.log("Cache status: Checking");
+				alert("Cache status: Checking");
 				break;
 			case 3:
-				console.log("Cache status: Downloading");
+				alert("Cache status: Downloading");
 				break;
 			case 4:
-				console.log("Cache status: Updateready");
+				alert("Cache status: Updateready");
 				break;
 			case 5:
-				console.log("Cache status: Obsolete");
+				alert("Cache status: Obsolete");
 				break;
 		}
 	}
 	function updateCache()
 	{
 		webappCache.swapCache();
-		console.log("Cache has been updated due to a change found in the manifest");
+		alert("Cache has been updated due to a change found in the manifest");
 	}
 	function errorCache()
 	{
-		console.log("You're either offline or something has gone horribly wrong.");
+		alert("You're either offline or something has gone horribly wrong.");
 	}
 
 	window.addEventListener("load", loaded, false);
