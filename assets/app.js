@@ -1,6 +1,6 @@
 (function(){
 	var webappCache = window.applicationCache;
-	
+	localstorage.setItem('abc','abc');
 	function loaded()
 	{
 		switch(webappCache.status)
