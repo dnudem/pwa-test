@@ -1,6 +1,6 @@
 (function(){
 	var webappCache = window.applicationCache;
-	alert('123');
+	alert('456');
 	function loaded()
 	{
 		switch(webappCache.status)
