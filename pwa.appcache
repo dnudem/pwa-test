@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
 CACHE:
-# Offline cache v4
+# Offline cache v10
 # html files
 index.html
 
@@ -10,7 +10,6 @@ assets/app.css
 
 # js files
 assets/app.js
-assets/a.js
 
 # images
 assets/ico_ninja-star.gif
